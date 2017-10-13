@@ -1,0 +1,142 @@
+<!--- Ana Pandey -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sapphire Website Layout</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Ana Pandey">
+    <meta name="student_number" content="A01038368" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/default_style.css" media="screen" />
+    <link rel="stylesheet" href="css/print_style.css" media="print" />
+    <link rel="stylesheet" href="css/xs_style.css" media="screen and (min-width:10px) and (max-width:400px)" />
+    <link rel="stylesheet" href="css/small_style.css" media="screen and (min-width:400px) and (max-width:600px)" />
+    <link rel="stylesheet" href="css/medium_style.css" media="screen and (min-width:600px) and (max-width:800px)" />
+    <link rel="stylesheet" href="css/fullscreen_style.css" media="screen and (min-width:800px) and (max-width:1300px)" />
+    <link rel="stylesheet" href="css/large_style.css" media="screen and (min-width:1300px) and (max-width:1600px)" />
+    <link rel="stylesheet" href="css/widescreen_style.css" media="screen and (min-width:1600px) and (max-width:1900px)" />
+
+</head>
+<!--- content area begins -->
+
+<body>
+    <div id="container">
+        <!--- a header with login button, logo and media icons -->
+        <header> 
+            <div id="wrapper">
+                <div class="column-box">
+                    <button id="login">New User | Login</button>
+                </div>
+                <div class="column-box">
+                    <img src="images/spa.png" alt="Logo">
+                </div>
+                <div class="column-box" id="media">
+                    <a id="facebook" href="#"></a>
+                    <a id="twitter" href="#"></a>
+                    <a id="pinterest" href="#"></a>
+                    <a id="rss" href="#"></a>
+                </div>
+            </div>
+        </header>
+        <!--- a navbar with navigation list -->
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <!--- main content area -->
+        <main>
+            <section id="heading">
+                <h1>Ayurvedic Living</h1>
+                <ul>
+                    <li>A natural diet that enhances immunity</li>
+                    <li>Herbs and Ayurvedic oil massages leads healthy and glowing skin</li>
+                    <li>Yoga lets you reduce stress and anxiety</li>
+                </ul>
+            </section>
+            <!-- heading ends -->
+            <section id="description">
+                <!-- multi-column layout begins -->
+                <article class="multi-column">
+                    <h3>Ayurvedic Diet</h3>
+                    <p>Eating right quantity of meals that includes lots of veggies and fruits, drinking at least 10 glasses of water daily and avoiding junk foods are the basics of Ayurvedic diet. Include green leafy veggitables in your dietlist.</p>
+                    <h3>Herbal Care</h3>
+                    <p>Herbs can detoxify your body, make your skin glowing and beautiful. Herbs like Triphala, Turmeric, Neem, Tulsi are well known detoxifier. Sandalood, Turmeric, Aloe Vera, Amla, Bhringaraj are proven Ayurvedic care for skin and hair.</p>
+                    <h3>Yoga, Massage</h3>
+                    <p>Practice of Yogasana and breathing exersizes reduces stress, helps a better sleep. Oil massages reduces pain and improves blood circulation. At the same time oil acts as a cleansing agents and nourishes skin.</p>
+                </article>
+                <!-- multi-column ends -->
+
+                <!-- article with flexbox image gallery 
+                <article class="flex-container">
+                    <div class="flex-gallery">
+                        <div class="gallery">
+                            <h3>Aloe Vera</h3>
+                            <img src="images/aloevera.jpg" alt="Aloe Vera Plant">
+                            <ul>
+                                <li>Cures minor infections</li>
+                                <li>Soothes itchy skin</li>
+                                <li>removes dead skin</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="flex-gallery">
+                        <div class="gallery">
+                            <h3>Avocado</h3>
+                            <img src="images/avocado.jpg" alt="Avocado">
+                            <ul>
+                                <li>Reduces inflammation</li>
+                                <li>Cures sun-burnt skin</li>
+                                <li>Treats age spots</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="flex-gallery">
+                        <div class="gallery">
+                            <h3>Calendula</h3>
+                            <img src="images/calendula.jpg" alt="Calendula">
+                            <ul>
+                                <li>Anti-viral, anti-bacterial</li>
+                                <li>Anti-inflammatory</li>
+                                <li>Cures skin damage</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="flex-gallery">
+                        <div class="gallery">
+
+                            <h3>Chamomile</h3>
+                            <img src="images/chamomile.jpg" alt="Chamomile">
+                            <ul>
+                                <li>Anti-inflammatory herb</li>
+                                <li>Treats eczema</li>
+                                <li>Relieves stress</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </article>
+                <!--article with flexbox ends -->
+            </section>
+            <!--section description ends -->
+        </main>
+        <!--- main content ends -->
+        
+        <!--- empty div to prevent overlapping content -->
+
+        <div id="push"></div>
+
+        <!--- footer with referer link -->
+        <footer>
+            <a href="http://validator.w3.org/check?uri=referer">Validate</a>
+        </footer>
+
+    </div>
+</body>
+
+</html>

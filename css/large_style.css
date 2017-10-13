@@ -1,0 +1,383 @@
+/** Ana Pandey
+ * Student number:A01038368 
+* Using Eric Meyer Reset with some modification */
+/* stylesheet for viewport between 1300px and 1600px
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+/** Line Height has been changed and included in the following body selector 
+body {
+	line-height: 1;
+}
+*/
+
+ol,
+ul {
+    list-style: none;
+}
+blockquote,
+q {
+    quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* Eric Meyer Reset code ends*/
+
+body {
+    background-color: #E9E9E9;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #008000;
+    line-height: 1.4;
+}
+h1 {
+    font-size: 300%;
+    color: #FFF;
+    text-shadow: 2px 2px 2px #008000;
+    margin-bottom: 25px;
+}
+h3 {
+    font-size: 130%;
+    color: #C06112;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+p {
+    font-size: 1.1em;
+}
+a:active {
+    color: #FFF;
+}
+a:hover {
+    color: #C06112;
+}
+a:visited {
+    color: #FFF;
+}
+header {
+    width: 100%;
+    height: 180px;
+    background-color: #FFF;
+    margin-left: auto;
+    margin-right: auto;
+}
+header img {
+    max-width: 60%;
+}
+nav {
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
+    height: 50px;
+    box-shadow: 1px 1px 1px #808080;
+    background: #3CC47C;
+    /* For browsers that do not support gradients */
+    
+    background: -webkit-linear-gradient(#3CC47C, #008000);
+    /* For Safari 5.1 to 6.0 */
+    
+    background: -o-linear-gradient(#3CC47C, #008000);
+    /* For Opera 11.1 to 12.0 */
+    
+    background: -moz-linear-gradient(#3CC47C, #008000);
+    /* For Firefox 3.6 to 15 */
+    
+    background: linear-gradient(#3CC47C, #008000);
+    /* Standard syntax */
+}
+nav ul li {
+    float: left;
+    list-style: none;
+    padding: 12px 0px 10px 0px;
+    border-right: 1px solid #E9E9E9;
+}
+nav a {
+    font-size: 1.3em;
+    text-decoration: none;
+    color: #FFF;
+    padding: 15px 60px 10px 60px;
+}
+nav a:hover {
+    color: #FFF;
+    background-color: #B5E582;
+}
+footer {
+    width: 80%;
+    padding: 5px;
+    position: relative;
+    bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 1px 1px #808080;
+    text-align: center;
+    background: #3CC47C;
+    /* For browsers that do not support gradients */
+    
+    background: -webkit-linear-gradient(#3CC47C, #008000);
+    /* For Safari 5.1 to 6.0 */
+    
+    background: -o-linear-gradient(#3CC47C, #008000);
+    /* For Opera 11.1 to 12.0 */
+    
+    background: -moz-linear-gradient(#3CC47C, #008000);
+    /* For Firefox 3.6 to 15 */
+    
+    background: linear-gradient(#3CC47C, #008000);
+    /* Standard syntax */
+}
+footer a {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #FFF;
+}
+button {
+    color: #FFF;
+    padding: 8px 30px 10px 10px;
+    border: none;
+    border-radius: 0px 0px 30px;
+    background: #3CC47C;
+    /* For browsers that do not support gradients */
+    
+    background: -webkit-linear-gradient(#3CC47C, #008000);
+    /* For Safari 5.1 to 6.0 */
+    
+    background: -o-linear-gradient(#3CC47C, #008000);
+    /* For Opera 11.1 to 12.0 */
+    
+    background: -moz-linear-gradient(#3CC47C, #008000);
+    /* For Firefox 3.6 to 15 */
+    
+    background: linear-gradient(#3CC47C, #008000);
+    /* Standard syntax */
+}
+article {
+    padding: 3%;
+}
+.column-box {
+    width: 33.33%;
+    box-sizing: border-box;
+    float: left;
+}
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: 600px;
+    border-top: 1px solid grey;
+}
+.flex-gallery {
+    width: 480px;
+    height: 400px;
+    margin: 10px;
+    text-align: center;
+}
+.flex-gallery li {
+    text-align: justify;
+}
+.gallery img {
+    max-width: 100%;
+    max-height: 220px;
+}
+.notes {
+    margin-top: 400px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* CSS3 multi-column layout */
+
+.multi-column {
+    column-count: 3;
+    column-gap: 4em;
+    column-width: 150px;
+}
+.multi-column h3 {
+    break-before: column;
+    margin-top: 2em;
+}
+#media a:hover {
+    background-color: #B5E582;
+    border: 1px solid #006400;
+}
+/* media icons using css sprites  */
+
+#facebook {
+    width: 50px;
+    height: 50px;
+    background: url("../images/media.png") 0px 0px;
+    float: right;
+}
+#twitter {
+    width: 50px;
+    height: 50px;
+    background: url("../images/media.png") 50px 0px;
+    float: right;
+}
+#pinterest {
+    width: 50px;
+    height: 50px;
+    background: url("../images/media.png") 50px -50px;
+    float: right;
+}
+#rss {
+    width: 50px;
+    height: 50px;
+    background: url("../images/media.png") 0px -50px;
+    float: right;
+}
+#heading {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 70%;
+    height: 420px;
+    box-sizing: border-box;
+    background: url("../images/herbs.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #FFF;
+    padding: 4%;
+}
+#heading li {
+    color: #006400;
+    font-size: 1.3em;
+    background: #E9E9E9;
+    margin: 10px;
+    list-style-type: square;
+}
+#description {
+    width: 80%;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+#description a {
+    text-decoration: none;
+    color: #C06112;
+    font-weight: bold;
+}
+#wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#push {
+    height: 100px;
+}

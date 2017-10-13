@@ -1,0 +1,71 @@
+/** Ana Pandey
+ * Student number:A01038368 
+* stylesheet for printer */
+
+body {
+    font-family: "arial";
+    background: none;
+    font-size: 1em;
+    line-height: 1.3;
+    padding: 2%;
+    text-align: justify;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "times new roman";
+}
+main {
+    page-break-before: always;
+    width: 100%;
+}
+/* Hiding unnecessary elements */
+
+img,
+header,
+header img,
+nav,
+nav ul,
+button,
+.gallery,
+.notes,
+#navbar-main,
+#navbar-main ul,
+#wrapper,
+#push {
+    display: none;
+}
+/*displaying url address*/
+
+a[href^="http://"]:link:after,
+a[href^="http://"]:visited:after {
+    content: " (URL: " attr(href) ") ";
+    font-size: 90%;
+}
+footer {
+    width: 100%;
+    border: 1px solid #808080;
+    text-align: center;
+}
+#heading {
+    background: none;
+    padding: 0 2% 0 2%;
+}
+/* differnt color for print style logo*/
+
+#heading:before {
+    content: url("../images/spa_print.png");
+}
+#heading li {
+    background: none;
+    border: 1px solid #808080;
+    list-style-type: square;
+    list-style-position: inside;
+    padding: 5px;
+}
+#description {
+    width: 100%;
+}
